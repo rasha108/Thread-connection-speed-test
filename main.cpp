@@ -6,8 +6,6 @@ using namespace std;
 
 class StreamUntier {
 public:
-    // добавьте конструктор, деструктор
-    // и дополнительные поля класса при необходимости
     StreamUntier(istream& in) {
         tied_before_ = in.tie(nullptr);
     }
